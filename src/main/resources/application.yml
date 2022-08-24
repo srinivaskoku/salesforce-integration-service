@@ -1,0 +1,10 @@
+salesforce:
+  username: ${SF_USER_NAME}
+  password: ${SF_PASSWORD}
+  consumer-key: ${SF_CONSUMER_KEY}
+  consumer-secret: ${SF_CONSUMER_SECRET}
+server:
+  port: ${PORT}
+logging:
+  level:
+    com.gitlab.johnjvester: DEBUG
